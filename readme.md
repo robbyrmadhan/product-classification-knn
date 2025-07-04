@@ -32,6 +32,8 @@ The core algorithm is **K-Nearest Neighbors (KNN)**, optimized using **Grid Sear
 
 ## 📊 Results and Evaluation
 
+![Hyperparameter Tuning Result](https://github.com/robbyrmadhan/product-classification-knn/blob/main/images/hyperparameter_tuning.png)
+
 The hyperparameter tuning process determined that the most effective model configuration was:
 
   * **Number of Neighbors (k)**: **4**
@@ -51,6 +53,7 @@ The high F1-Score, which balances precision and recall, indicates that the model
 -----
 
 ## 🔬 Error Analysis
+![WordCloud Error Result](https://github.com/robbyrmadhan/product-classification-knn/blob/main/images/wordcloud_error.png)
 
 While the overall performance was strong, the model struggled with **class overlap**, where products in different categories share similar names and attributes.
 
